@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.115.2",
+  "pnpmVersion": "8.0.0",
+  "nodeSupportedVersionRange": ">=18.0.0",
+  "projects": [
+    {
+      "packageName": "soma-ui",
+      "projectFolder": ".",
+      "reviewCategory": "production"
+    }
+  ],
+  "eventHooks": {
+    "preRushInstall": [],
+    "postRushInstall": [],
+    "preRushBuild": [],
+    "postRushBuild": []
+  }
+}
